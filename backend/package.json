@@ -1,0 +1,30 @@
+{
+  "name": "24cs093-awdf-practical-7-backend",
+  "version": "1.0.0",
+  "description": "Backend API for CHARUSAT ITUE301 Practical 7: Authentication & Middleware Pipeline",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test --test-force-exit"
+  },
+  "keywords": [
+    "express",
+    "jwt",
+    "bcryptjs",
+    "authentication",
+    "mongoose",
+    "mongodb"
+  ],
+  "author": "Param Shah (24CS093)",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5"
+  }
+}
